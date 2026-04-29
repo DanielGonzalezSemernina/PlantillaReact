@@ -6,7 +6,7 @@ import './index.css'
 import "../src/i18n/i18n.js";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/PlantillaReact">
     <App />
   </BrowserRouter>
 )

@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(), // <-- Añadir aquí
   ],
+  base: "/PlantillaReact/",
 })
